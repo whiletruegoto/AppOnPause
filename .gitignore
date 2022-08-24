@@ -1,0 +1,59 @@
+# ===================================== #
+# Local #
+# ===================================== #
+Assets/Resources/config*.json.meta
+Assets/Plugins/LibsSymlinks*
+Packages/
+.vsconfig
+
+# =============== #
+# Unity generated #
+# =============== #
+build/
+Builds/
+buildPC/
+/Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/Assemblies/*.dll.mdb
+Assets/Assemblies/*.dll.mdb.meta
+Logs/
+ProjectSettings/
+
+# ===================================== #
+# Visual Studio / MonoDevelop / VSCode / Rider generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+/*.csproj
+/*.sln
+*.pidb
+*.suo
+*.user
+*.unityproj
+*.booproj
+/Backup/
+/obj/
+Debug
+Release
+.idea/
+.vscode/
+.vs/
+Assets/Plugins/Editor/JetBrains.meta
+Assets/Plugins/Editor/JetBrains/
+*.sublime-project
+*.sublime-workspace
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+#Icon?
+ehthumbs.db
+Thumbs.db
