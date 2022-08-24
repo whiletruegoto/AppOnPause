@@ -8,3 +8,5 @@ as [docs suggest](https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnAppli
 
 Logs are printed to the UI panel to test on mobile device right off the bat. Build and run on device, then try to switch between apps. 
 Timer is included to see if coroutine gets aborted or not. Also you can delete prefs from the file menu, see **AppOnPause/Delete Save**.
+
+[Download apk](https://github.com/cococatus/AppOnPause/releases/download/v1.0/AppOnPause.apk)
