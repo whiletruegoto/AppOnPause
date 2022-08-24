@@ -18,10 +18,10 @@ public class Timer : MonoBehaviour
         var totalPlayedTime = PlayerPrefs.GetInt(_controller.TotalPlayedTime, 0);
         var minutesIngame = totalPlayedTime / 60;
         if (minutesIngame <= MinutesLimit)
-            StartCoroutine(RookieStatusCoroutine(minutesIngame));
+            StartCoroutine(StatusCoroutine(minutesIngame));
     }
 
-    private IEnumerator RookieStatusCoroutine(int minutes)
+    private IEnumerator StatusCoroutine(int minutes)
     {
         while (minutes <= MinutesLimit)
         {
